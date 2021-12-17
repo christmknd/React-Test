@@ -1,8 +1,15 @@
-import React from 'react';
+import React,{useState} from 'react';
 
 function Countries() {
+
+    const [data,setData] = useState(['Hello'])
+
+    function sayGoodbye () {
+        setData("Goodbye")
+    }
+
     return (
-        <div>Countries</div>
+        {data}
     )
 }
 
