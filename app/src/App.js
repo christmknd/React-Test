@@ -1,12 +1,14 @@
 import './App.css';
+import React from "react";
 import Bonjour from "./components/Bonjour";
-import Horloge from "./components/Horloge";
+import Countries from "./components/Countries";
 
 function App() {
-  return (
+
+    return (
     <div className="App">
       <Bonjour name={"Christ"}/>
-      <Horloge/>
+      <Countries/>
     </div>
   );
 }
